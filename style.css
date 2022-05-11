@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#head{
+    background-color: skyblue;
+    background-image: linear-gradient(to right, skyblue, white);
+    display: flex;
+    justify-content:space-between;
+}
+#banner{
+    height:150px;
+}
+#logo, #banner{
+    padding:10px 25px;
+}
+#logo a{
+    text-decoration: none;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#search{
+    margin:10px 0px 0px 0px;
+}
+#tk{
+    padding: 5px;
+}
+#nhap{
+    padding: 5px;
+    width:200px;
+}
+#s2{
+    justify-content: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 50px 0px;
+}
+#note{
+    float: right;
+}
+
+
+
+#topnav{
+    overflow: hidden;
+    background-color: black;
+}
+#topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding:16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#topnav a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+#topnav a#home{
+   background-color:skyblue;
+   background-image: linear-gradient(skyblue, blue); 
+   color:white;
+}
+
+
+
+#content{
+    background-color: gray;
+}
+#main_content{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin:0px 101px;
+    background-color: rgb(69, 69, 69);
+    padding-top: 10px;
+}
+.conan{
+    background-color: black;
+}
+.kudo{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color:white;
+    display: block;
+    line-height: 18px;
+    max-width: 240px;
+}
